@@ -1,0 +1,58 @@
+// var babyTail=[];
+// document.body.onload=game;
+// function game(){
+// 	init();
+// 	lastTime=Date.now();
+// 	deltaTime=0;
+// 	loop();
+// }
+// function init(){
+// 	for(let i=0;i<8;i++){
+// 		babyTail[i]=new Image();
+// 		babyTail[i].src="./src/"+i+".png";
+// 	}
+// 	var big=new bigObj();
+// }
+// function loop(){
+// 	var now=Date.now();
+// 	deltaTime=now-lastTime;
+// 	lastTime=now;
+// }
+
+// var babyObj=function(){
+// 	this.x;
+// 	this.y;
+// 	this.angle;
+// 	this.babyEye=new Image();
+// 	this.babyBody=new Image();
+// 	this.babyTail=new Image();
+// 	this.babyTailTimer=0;
+// 	this.babyTailCount=0;
+// }
+// babyObj.prototype.draw = function() {
+// 	//baby tail count
+// 	this.babyTailTimer+=deltaTime;
+// 	if(this.babyTailTimer>50){
+// 		this.babyTailCount=(this.babyTailCount+1)%8;
+// 		this.babyTailTimer%=50;
+// 	}
+// };
+
+// var bigObj=function(){
+// 	this.x;
+// 	this.y;
+// 	this.angle;
+// 	this.bigEye=new Image();
+// 	this.bigBody=new Image();
+// 	this.bigTail=new Image();
+// 	this.bigTailTimer=0;
+// 	this.bigTailCount=0;
+// }
+// bigObj.prototype.draw = function() {
+// 	//big tail count
+// 	this.bigTailTimer+=deltaTime;
+// 	if(this.bigTailTimer>50){
+// 		this.bigTailCount=(this.bigTailCount+1)%8;
+// 		this.bigTailTimer%=50;
+// 	}
+// };
